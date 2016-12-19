@@ -1,0 +1,11 @@
+Lista com os arquivos alterados em cada SC:
+
+-SC sobre FileSystem(tanto .h quanto .cpp):
+	-FileSytem
+	-FileAttribute
+	-FileAllocationEntry
+	-FileAllocationTable
+	-FileAllocator
+	-Mediator_HardDisk
+
+-SC sobre
