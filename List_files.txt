@@ -21,3 +21,17 @@ Lista com os arquivos alterados em cada SC:
 	-Traits.h
 	-Util_Shceduling_Queue.h
 
+-SC sobre alocação contínua:
+	-
+
+-SC sobre algoritmo do banqueiro:
+	-
+
+-SC sobre o EDF:
+	-Abstr_Process.h
+	-Abstr_Process.cpp
+	-Abstr_Scheduler.h
+	-Abstr_Scheduler.cpp
+	-Abstr_Thread.h
+	-Abstr_Thread.cpp
+	-OperatingSystem.cpp
