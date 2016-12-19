@@ -8,4 +8,16 @@ Lista com os arquivos alterados em cada SC:
 	-FileAllocator
 	-Mediator_HardDisk
 
--SC sobre
+-SC sobre Escalonamento de requisições no disco:
+	-Abstr_Scheduler.h
+	-Abstr_Thread.h
+	-HW_HardDisk.h
+	-HW_HardDisk.cpp
+	-Mediator_HardDisk.h
+	-Mediator_HardDisk.cpp
+	-OperatingSystem.h
+	-OperatingSystem.cpp
+	-Simulator.cpp
+	-Traits.h
+	-Util_Shceduling_Queue.h
+
