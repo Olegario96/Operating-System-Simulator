@@ -25,7 +25,10 @@ Lista com os arquivos alterados em cada SC:
 	-
 
 -SC sobre algoritmo do banqueiro:
-	-
+	-Banker.h
+	-Banker.cpp
+	-OperatingSystem.cpp
+	-ProblemTester.cpp
 
 -SC sobre o EDF:
 	-Abstr_Process.h
@@ -35,3 +38,15 @@ Lista com os arquivos alterados em cada SC:
 	-Abstr_Thread.h
 	-Abstr_Thread.cpp
 	-OperatingSystem.cpp
+
+-SC sobre o Rate Monotonic:
+	-Abstr_Process.h
+	-Abstr_Process.cpp
+	-Abstr_Scheduler.h
+	-Abstr_Scheduler.cpp
+	-Abstr_Thread.h
+	-Abstr_Thread.cpp
+	-OperatingSystem.cpp
+	-Timer.cpp
+	-Alarm.cpp
+	-ProblemTester.cpp
