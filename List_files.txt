@@ -22,7 +22,14 @@ Lista com os arquivos alterados em cada SC:
 	-Util_Shceduling_Queue.h
 
 -SC sobre alocação contínua:
-	-
+	-MemoryManager.h
+	-MemoryManager.cpp
+	-MemoryChunk.h
+	-MemoryChunk.cpp
+	-Process.h
+	-Process.cpp
+	-OperatingSystem.cpp
+	
 
 -SC sobre algoritmo do banqueiro:
 	-Banker.h
