@@ -1,0 +1,57 @@
+-Mediator_HardDisk (FileSystem, Escalonamento de requisição de Disco)
+	diferenças em relação ao .h: ambos muito semelhantes, entretanto
+	o arquivo do projeto de Escalonamento apresenta-se mais completo.
+
+	diferenças em relação ao .cpp: o arquivo do projeto de requisição de disco
+	apresentou-se muito mais sólido. Além te ter mais funções e maior
+	detalhamento, para funções que fazem a mesma coisa em ambos os projetos
+	o de requisição de disco não faz o uso de laços de repetição
+	(o que do ponto de vista computacional é ótimo).
+
+
+-Abstr_Scheduler (Rate Monotonic, EDF, Requisição de Disco)
+	diferenças em relação ao .h: os três se assemelham muito. O rate monotonic,
+	não possui o reeschedule implementado, porém escolhe na fila de acordo com a
+	prioridade. Já o EDF e o Requisiço se diferenciam no método 'choose'
+	no sentido de quando um novo elemento é escolhido, o EDF o retira da fila
+	e o projeto de Requisição não.
+
+	diferenças em relação ao .cpp: nenhuma. Todos os projetos
+	fizeram a implementação do que era necessário no .h.
+
+-Abstr_Thread (Rate Monotonic, EDF, Requisição de Disco)
+	diferenças em relação ao .h: o projeto do EDF adicionou uma constante
+	aleatória de geração de Deadline. Na struct de account information, tanto
+	o EDF quanto o Rate Monotonic adicionaram variáveis para guardar os valores
+	das estatísticas, porém o Rate Monotonic adicionou métodos get's e set's.
+	Já o de requisição de disco adicionou uma função de de sobrescrita no
+	operador "<<" (que até o atual momento estamos sem entender o porquê).
+
+	diferenças em relaçao ao .cpp: o Rate Monotonic possui um construtor a mais,
+	devido ao fato de ser necessário inicializar algumas variáveis com valores
+	específicos, todavia o método destrutor apresenta uma certa inconsistência.
+	Quanto as demais implementações, não aparentam estar de acordo com o que o
+	professor havia proposto. Existe a possibilidade de o senhor nos ajudar com
+	essa questão? Quanto ao projeto de requisição de disco a única implementação
+	feita foi a da função criada sobre a sobrescrita do operador <<.
+
+-Util_Scheduling_Queue (Requisição de Disco, EDF)
+	diferenças em relação ao .h: praticamente idênticos. A inserção na fila
+	é feita e em seguida a mesma é ordenada.
+
+	diferenças em relação ao .cpp: nenhuma. Ambos os projetos fizeram a
+	implementação no .h.
+
+
+-Abstr_Process (Alocação de Memória, EDF, Rate Monotonic)
+	diferenças em relação ao .h: o projeto de alocação de memória apenas
+	adicionou dois métodos (get e set) para o chunck de memória alocado para o
+	processo. Já o EDF possui na struct de 'accountInformation' possui algumas
+	variáveis extras para coletar estatísticas.
+
+	diferenças em relação ao .cpp: a única implementação feita para o alocação
+	contínua foi no process_exec e process_exit que em que a alocação é feita
+	de forma não uniforme e na destruição do processo o gerenciador de memória
+	deleta o chunk de memória daquele processo de forma direta. Já o EDF e o
+	Rate monotonic apresentaram uma implementação muito semelhante, diferenciando
+	mais no que se refere a estatística pois é onde o EDF faz a sua coleta.
