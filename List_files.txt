@@ -26,8 +26,8 @@ Lista com os arquivos alterados em cada SC:
 	-MemoryManager.cpp
 	-MemoryChunk.h
 	-MemoryChunk.cpp
-	-Process.h
-	-Process.cpp
+	-Abstr_Process.h
+	-Abstr_Process.cpp
 	-OperatingSystem.cpp
 	
 
