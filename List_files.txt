@@ -1,7 +1,7 @@
 Lista com os arquivos alterados em cada SC:
 
 -SC sobre FileSystem(tanto .h quanto .cpp):
-	-FileSytem
+	-FileSystem
 	-FileAttribute
 	-FileAllocationEntry
 	-FileAllocationTable
