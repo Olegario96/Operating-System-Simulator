@@ -46,7 +46,9 @@
 -Abstr_Process (Alocação de Memória, EDF, Rate Monotonic)
 	diferenças em relação ao .h: o projeto de alocação de memória apenas
 	adicionou dois métodos (get e set) para o chunck de memória alocado para o
-	processo. Já o EDF possui na struct de 'accountInformation' possui algumas
+	processo. Ele tambm adicionou um atributo publico e estático, um ponteiro 
+	para um MemoryManager e um ponteiro privado para um chunk.
+	Já o EDF possui na struct de 'accountInformation' possui algumas
 	variáveis extras para coletar estatísticas.
 
 	diferenças em relação ao .cpp: a única implementação feita para o alocação
