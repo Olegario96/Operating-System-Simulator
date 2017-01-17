@@ -57,3 +57,16 @@ Lista com os arquivos alterados em cada SC:
 	-Timer.cpp
 	-Alarm.cpp
 	-ProblemTester.cpp
+	
+-SC sobre DeadLock: 
+	-NoGrafo.h
+	-grafo.h
+	-grafo.cpp
+	-GerenciadorRecurso.h
+	-GerenciadorRecurso.cpp
+	-DetectorDeadLock.h
+	-DetectorDeadLock.cpp
+	-Mediator_Timer.h
+	-Mediator_Timer.cpp
+	-Abstr_Process.h
+	-Abstr_Process.cpp
