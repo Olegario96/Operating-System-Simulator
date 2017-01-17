@@ -29,6 +29,7 @@ Lista com os arquivos alterados em cada SC:
 	-Abstr_Process.h
 	-Abstr_Process.cpp
 	-OperatingSystem.cpp
+	-AllocationStrategy.h
 	
 
 -SC sobre algoritmo do banqueiro:
