@@ -14,6 +14,8 @@
 #include "Abstr_MemoryManager.h"
 #include "Abstr_Scheduler.h"
 
+MemoryManager * Process::memManager = nullptr;
+
 Process::Process(unsigned int parentId) {
     this->_entity = Simulator::getInstance()->getEntity(); // simulation purposes only
     this->_entity->setPointer(this); // simulation purposes only
@@ -73,6 +75,7 @@ Process* Process::exec() { /*static*/
 
     // alocar memória para ele
     unsigned int size = Simulator::generate_uniform_distribution(300, 500);
+
 
     MemoryChunk * chunk = getMemoryManager()->allocateMemory(size);
 

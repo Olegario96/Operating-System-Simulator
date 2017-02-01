@@ -19,13 +19,13 @@
 
 MemoryManager::MemoryManager() {
     _chunks = new std::list<MemoryChunk*>();
-    
+
     _memorySize = 3000;
 
     MemoryChunk * chunk = new MemoryChunk(0,_memorySize,false,false,false);
 
     _chunks->push_back(chunk);
-    
+
 }
 
 MemoryManager::MemoryManager(const MemoryManager& orig) {
@@ -38,24 +38,23 @@ MemoryManager::~MemoryManager() {
 
 MemoryChunk* MemoryManager::allocateMemory(unsigned int size) {
     Debug::cout(Debug::Level::trace, "MemoryManager::allocateMemory(" + std::to_string(size) + ")");
-  
+
+
     std::list<MemoryChunk*>::iterator  itChunkLivre = _allocation->allocateMemory(_chunks, size);
-    
-    
+
         if(itChunkLivre == _chunks->end()) {
-        this->defragment();
 
-        itChunkLivre = std::prev(_chunks->end());
+            this->defragment();
 
-        //não possui espaço na memória, então não aloca.
-	
-	std::cout << "está livre? " << (*itChunkLivre)->isFree() << std::endl;
-	std::cout << "tamanho " <<  (*itChunkLivre)->getSize() << std::endl;
-        if(!(*itChunkLivre)->isFree() || size > (*itChunkLivre)->getSize()) {
-            return nullptr;
+            itChunkLivre = std::prev(_chunks->end());
+
+            std::cout << "está livre? " << (*itChunkLivre)->isFree() << std::endl;
+            std::cout << "tamanho " <<  (*itChunkLivre)->getSize() << std::endl;
+
+            if(!(*itChunkLivre)->isFree() || size > (*itChunkLivre)->getSize()) {
+                return nullptr;
+            }
         }
-
-    }
 
     int beginLogicalAddress = (*itChunkLivre)->getBeginLogicalAddress();
 
@@ -135,7 +134,7 @@ void MemoryManager::deallocateMemory(MemoryChunk* chunk) {
     switch(op) {
 
     case BothFree: {
-      
+
         int newSize = (*itPrev)->getSize() + (*itChunk)->getSize() + (*itNext)->getSize();
 
         (*itPrev)->setSize(newSize);
@@ -158,7 +157,7 @@ void MemoryManager::deallocateMemory(MemoryChunk* chunk) {
         int newSize = (*itPrev)->getSize() + (*itChunk)->getSize();
 
         (*itPrev)->setSize(newSize);
-	
+
         _chunks->erase(itChunk);
 
         break;
@@ -274,19 +273,19 @@ void MemoryManager::showMemory() {
         std::cout << beginAddress << "-" << (beginAddress + size) -1 << " " + allocated + " " << size << std::endl;
 
     }
-    
-   
+
+
 
 }
 
 void MemoryManager::showStatistics()
 {
     std::cout << "Statistics:" << std::endl;
-    
+
     std::cout << "Fragmentation rate: " << getFragmentationRate() << std::endl;
     std::cout << "Occupancy rate: " << getOccupancyRate() << std::endl;
     std::cout << "Average time Defragmentation: " << getAverageTimeDefragmentation() << std::endl;
-    
+
 }
 
 

@@ -80,7 +80,7 @@ public: // statics
         }
         return _threadsList;
     }
-protected: // statics
+public: // statics
     static Thread* _running;
     static void yield();
     static void exit(int status = 0);

@@ -29,10 +29,14 @@ public: // do not change
     unsigned int getNumMemoryChunks();
     MemoryChunk* getMemoryChunk(unsigned int index);
     void defragment();
-    
+
     void setAllocationStrategy(AllocationStrategy * allocation){
-    
+
       _allocation = allocation;
+    }
+
+    AllocationStrategy* getAllocationStrategy() {
+        return _allocation;
     }
 
     double getFragmentationRate();

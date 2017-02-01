@@ -37,7 +37,7 @@ Timer::~Timer() {
 
 /**
  * O sistema simulado possui um timer que gera interrupções periodicamente. O timer foi inicialmente configurado
- * para gerar interrupções a cada Traits<Timer>::timer_interrupt_period unidades de tempo. 
+ * para gerar interrupções a cada Traits<Timer>::timer_interrupt_period unidades de tempo.
  * Sempre que uma interrupção do timer ocorre, automaticamente é
  * invocado o método static void TimerMediator::interrupt_handler(), que precisa ser implementado. Esse método trata uma
  * interrupção do timer, e sua implementação depende do algoritmo de escalonamento. Ele pode ser usado para preemptar
@@ -45,21 +45,22 @@ Timer::~Timer() {
  */
 void Timer::interrupt_handler() {
     Debug::cout(Debug::Level::trace, "Timer::interrupt_handler()");
-        // INSERT YOUR CODE HERE
-	    // ...
+
+    /*    // INSERT YOUR CODE HERE
+	    // ... */
         count++;
         bool deadlock = true;
-        
+
 
         /* Etapa 1 - Criacao de processos e do Gerenciador de Recursos */
-        
+
         ultimoProcesso = 10; // Max 20 processos. Para permitir mais aumentar array de processos no Mediator_Timer.h
         for (int i = 0; i < ultimoProcesso; ++i)
             processos[i] = new Process(i);
         gerenciarRecurso = new Gr();
-        
+
         /* ------------------------------------------------------------ */
-        
+
         /* Etapa 2 - alocacao/desalocao de recursos */
 
         // Caso aleatoriamente não ocorra Deadlocks, esse exemplo garante a ocorrência no terceiro "tick".
@@ -109,7 +110,7 @@ void Timer::interrupt_handler() {
         list<int> *adj = grafo->getAdj();
         vector<NoGrafo*> listaNoGrafo = grafo->getListaNoGrafo();
         dd = new DetectorDeadlock(adj,listaNoGrafo,ultimoProcesso);
-        
+
         // Exibe ligação de processos - recursos, recursos - processos
         list<int>::iterator outputIt;
         for (int i = 0; i < ultimoProcesso+10; ++i)
@@ -135,7 +136,7 @@ void Timer::interrupt_handler() {
         for (int i = 0; i < ultimoProcesso; ++i)
             if (!listaNoGrafo[i]->getVisitado())
                 try {
-                    dd->detectar(i);   
+                    dd->detectar(i);
                 } catch (int e) {
                     deadlock = false;
                     break;

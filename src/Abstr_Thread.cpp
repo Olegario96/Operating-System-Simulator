@@ -181,31 +181,20 @@ int Thread::join() {
  **/
 void Thread::exit(int status) { /* static */
     Debug::cout(Debug::Level::trace, "Thread::exit(" + std::to_string(status) + ")");
-    // INSERT YOUR CODE HERE
-    // ...
-    // colocar a thread que está executando no estado FINISHING
+    Thread::running()->_state = Thread::State::FINISHING;
+    Thread::running()->_accountInfo._cpuBurstTime += Simulator::getInstance()->getTnow() - Thread::running()->_accountInfo._dispatchedTime;
+    Thread::running()->_accountInfo._cpuTime += Thread::running()->_accountInfo._cpuBurstTime;
 
-    _running->_state = FINISHING;
-    _running->_accountInfo._priority = IDLE;
-    auto scheduler = OperatingSystem::Process_Scheduler();
+    Thread::getThreadsList()->remove(Thread::running());
     // verificar se há alguma thread na lista de threads bloqueadas esperando por essa thread.
-    for (auto i = getThreadsList()->front(); i != getThreadsList()->back(); ++i) {
         // Se houver, todas as threads na lista devem ser colocadas no estado READY
-        if (i->_state == WAITING) {
-            i->_state = READY;
-            // calcula quanto tempo ficou esperando (bloqueada)
-            i->_accountInfo._blockedTime += (Simulator::getInstance()->getTnow() - i->_accountInfo._blockedAux);
-            // anota o horário que ficou pronta
-            i->_accountInfo._waitAux = Simulator::getInstance()->getTnow();
-            // colocadas na fila de threads prontas para executar
-            scheduler->insert(i);
-        }
+        // colocadas na fila de threads prontas para executar
+    while (!(Thread::running()->_queue->empty())) {
+        Thread::wakeup(Thread::running()->_queue);
     }
     // chamar o escalonador para escolher outra thread
-    auto new_running = scheduler->choose();
     // chamar despachador para iniciar a execução da thread escolhida pelo escalonador
-    dispatch(_running, new_running);
-
+    Thread::dispatch(nullptr, OperatingSystem::Process_Scheduler()->choose());
 }
 
 /**

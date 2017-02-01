@@ -1,0 +1,1159 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"get",
+				"getId"
+			],
+			[
+				"thre",
+				"thread_1"
+			],
+			[
+				"trh",
+				"thread_1"
+			],
+			[
+				"process",
+				"process_1"
+			],
+			[
+				"Pro",
+				"ProcessScheduling"
+			],
+			[
+				"Execu",
+				"ExecuteTestCode"
+			],
+			[
+				"_pr",
+				"_processPeriodicScheduler"
+			],
+			[
+				"path",
+				"path_missing"
+			],
+			[
+				"strin",
+				"string_to_file"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"cs",
+				"csv_to_sql_others"
+			],
+			[
+				"ins",
+				"insert_into"
+			],
+			[
+				"csv_to",
+				"csv_to_sql_others"
+			],
+			[
+				"csv_",
+				"csv_to_sql_erros"
+			],
+			[
+				"row",
+				"row_aux"
+			],
+			[
+				"eliminina",
+				"elimininate_strange_characters"
+			],
+			[
+				"lis",
+				"list_all"
+			],
+			[
+				"init",
+				"init_output_tip4"
+			],
+			[
+				"out",
+				"init_output_tip4"
+			],
+			[
+				"pa",
+				"path"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"csv",
+				"csv_reader"
+			],
+			[
+				"tabl",
+				"charateristics_table"
+			],
+			[
+				"pah",
+				"path_to_files"
+			],
+			[
+				"dir",
+				"dir_index"
+			],
+			[
+				"ab",
+				"absolute_path"
+			],
+			[
+				"file",
+				"filenames"
+			],
+			[
+				"list",
+				"list_complete"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"oddNumS",
+				"oddNumSquareSum"
+			],
+			[
+				"oddNumSq",
+				"oddNumSquareSeries"
+			],
+			[
+				"sq",
+				"squareSum"
+			],
+			[
+				"square",
+				"squareSeries"
+			],
+			[
+				"odd",
+				"odd_num_square_series"
+			],
+			[
+				"odd_num_s",
+				"odd_num_square_sum"
+			],
+			[
+				"sum_num",
+				"sum_num_square_odd"
+			],
+			[
+				"s",
+				"square_series"
+			],
+			[
+				"even",
+				"even_num_series"
+			],
+			[
+				"e",
+				"even_num_sum"
+			],
+			[
+				"Con",
+				"Cone_Trunk"
+			],
+			[
+				"csv_to_mysql_",
+				"csv_to_mysql_others"
+			],
+			[
+				"proc",
+				"processarArquivoCSV"
+			],
+			[
+				"Semi",
+				"Semi_Axis_B"
+			],
+			[
+				"Ra",
+				"Radius_2"
+			],
+			[
+				"Radi",
+				"Radius_1"
+			],
+			[
+				"Sem",
+				"Semi_Axis_A"
+			],
+			[
+				"Sphe",
+				"Spheroid"
+			],
+			[
+				"Rad",
+				"Radius_1"
+			],
+			[
+				"ioc",
+				"ioctl"
+			],
+			[
+				"mi",
+				"missing_index"
+			],
+			[
+				"num",
+				"number_lines_complete"
+			],
+			[
+				"numb",
+				"number_lines_complete"
+			],
+			[
+				"csv_miss",
+				"csv_missing_reader"
+			],
+			[
+				"csv_c",
+				"csv_complete_reader"
+			],
+			[
+				"bin",
+				"binarySearch"
+			],
+			[
+				"m",
+				"mid"
+			],
+			[
+				"csv_fil",
+				"csv_file_complete_case"
+			],
+			[
+				"case",
+				"case_miss"
+			],
+			[
+				"double",
+				"doubleUs"
+			],
+			[
+				"doub",
+				"doubleMe"
+			],
+			[
+				"_j",
+				"_jogador2"
+			],
+			[
+				"joga",
+				"_jogador1"
+			],
+			[
+				"jo",
+				"_jogador2"
+			],
+			[
+				"_joga",
+				"_jogador1"
+			],
+			[
+				"_",
+				"_jogador2"
+			],
+			[
+				"da",
+				"_dados"
+			],
+			[
+				"_mo",
+				"_monstro_alvo"
+			],
+			[
+				"Monstro",
+				"Monstro_Com_Habilidade"
+			],
+			[
+				"_m",
+				"_monstros"
+			],
+			[
+				"est",
+				"_numEstrelas"
+			],
+			[
+				"show",
+				"_showSimulationStatistics"
+			],
+			[
+				"th",
+				"thread_2"
+			],
+			[
+				"new",
+				"new_thread2"
+			],
+			[
+				"pro",
+				"proc_1"
+			],
+			[
+				"Proc",
+				"Process"
+			],
+			[
+				"nul",
+				"nullptr"
+			],
+			[
+				"nom",
+				"nome_tabela"
+			],
+			[
+				"csvl",
+				"csv_file"
+			],
+			[
+				"pus",
+				"push_back"
+			],
+			[
+				"gira",
+				"giraesquerda"
+			],
+			[
+				"gi",
+				"giraesquerda"
+			],
+			[
+				"use",
+				"usenada"
+			],
+			[
+				"para",
+				"parafrente"
+			],
+			[
+				"nth",
+				"nth0"
+			],
+			[
+				"Lis",
+				"ListVertex"
+			],
+			[
+				"x",
+				"xy"
+			],
+			[
+				"nb",
+				"nb_getval"
+			],
+			[
+				"New",
+				"NewID"
+			],
+			[
+				"id",
+				"idglobal"
+			],
+			[
+				"Y",
+				"YFinal"
+			],
+			[
+				"X",
+				"XFinal"
+			],
+			[
+				"nb_",
+				"nb_getval"
+			],
+			[
+				"Fin",
+				"FinalY"
+			],
+			[
+				"Fina",
+				"FinalY"
+			],
+			[
+				"asse",
+				"asserta"
+			],
+			[
+				"thread",
+				"thread_1"
+			],
+			[
+				"threa",
+				"thread_create"
+			],
+			[
+				"ass",
+				"asserta"
+			],
+			[
+				"xy",
+				"xylast"
+			],
+			[
+				"crea",
+				"create_database"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"ec",
+				"execute"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "OperatingSystem.cpp",
+			"settings":
+			{
+				"buffer_size": 8325,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Abstr_MemoryManager.cpp",
+			"settings":
+			{
+				"buffer_size": 8666,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Abstr_Process.h",
+			"settings":
+			{
+				"buffer_size": 3793,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Abstr_Process.cpp",
+			"settings":
+			{
+				"buffer_size": 6327,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GerenciadorRecurso.h",
+			"settings":
+			{
+				"buffer_size": 1920,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GerenciadorRecurso.cpp",
+			"settings":
+			{
+				"buffer_size": 1523,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Abstr_Thread.h",
+			"settings":
+			{
+				"buffer_size": 3154,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Abstr_Thread.cpp",
+			"settings":
+			{
+				"buffer_size": 15811,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "paca",
+		"selected_items":
+		[
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Channel"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/olegario/Operating_System_Simulator/Alocacao_Continua/OperatingSystem.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Scheduler.h",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/ProblemTester.cpp",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Abstr_Thread.cpp",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Abstr_Thread.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Scheduler.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/BestFitAllocation.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/BestFitAllocation.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/AllocationStrategy.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_MemoryManager.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_MemoryManager.cpp",
+		"/home/olegario/test_zone/urubici/tip_to_sql.py",
+		"/home/olegario/test_zone/chui/tip_to_sql.py",
+		"/home/olegario/test_zone/oiapoque/tip_to_sql.py",
+		"/home/olegario/test_zone/palmas/tip_to_sql.py",
+		"/home/olegario/test_zone/teresina/tip_to_sql.py",
+		"/home/olegario/Operating_System_Simulator/Alocacao_Continua/Abstr_MemoryManager.cpp",
+		"/home/olegario/Operating_System_Simulator/Alocacao_Continua/Simulator.cpp",
+		"/home/olegario/Operating_System_Simulator/Alocacao_Continua/Abstr_Process.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Process.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/OperatingSystem.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Process.h",
+		"/home/olegario/Operating_System_Simulator/Alocacao_Continua/AllocationStrategy.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Alarm.d",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Util_Queue.cpp",
+		"/home/olegario/Operating_System_Simulator/Alocacao_Continua/Abstr_Process.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Thread.cpp",
+		"/home/olegario/test_zone/db_init.py",
+		"/home/olegario/test_zone/floripa/tip_to_sql_floripa.py",
+		"/home/olegario/test_zone/floripa/tip_to_sql.py",
+		"/home/olegario/test_zone/curitiba/tip_to_sql.py",
+		"/home/olegario/test_zone/saopaulo/tip_to_sql.py",
+		"/home/olegario/test_zone/rio/tip_to_sql.py",
+		"/home/olegario/test_zone/goiania/tip_to_sql.py",
+		"/home/olegario/test_zone/portoalegre/tip_to_sql.py",
+		"/home/olegario/test_zone/belem/tip_to_sql.py",
+		"/home/olegario/test_zone/brasilia/tip_to_sql.py",
+		"/home/olegario/test_zone/salvador/tip_to_sql.py",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Mediator_Timer.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Mediator_Timer.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Traits.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/ModuleInvoke_HardwareEvent.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Simulator.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/OperatingSystem.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Alarm.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Traits.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/main.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Application.h",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF (2)/src/ModuleInvoke_HardwareEvent.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/ModuleInvoke_HardwareEvent.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Mediator_Timer.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/OperatingSystem.h",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/OperatingSystem.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Mediator_Timer.h",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Simul_Entity.h",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Simul_Entity.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Simulator.h",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Simulator.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/grafo.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/NoGrafo.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/DetectorDeadlock.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Simulator.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/GerenciadorRecurso.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/HW_Timer.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/ProblemTester.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/DetectorDeadlock.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Application.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/ProblemTester.h",
+		"/home/olegario/test_zone/recife/tip_to_sql.py",
+		"/tmp/test.py",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Alarm.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Thread.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Util_Queue.h",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Util_Queue.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Periodic_Thread.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Abstr_Periodic_Thread.h",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Util_Queue.cpp",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Queue.cpp",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Queue.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Queue.h",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/OperatingSystem.h",
+		"/home/olegario/Operating_System_Simulator/5 - Agrupamento 4, Tema 1.7, Projeto Algoritmo de detec├з├гo de deadlock.-Fabio Moreira (14200727)_3103556_assignsubmission_file_FabioMoreiraTema1.7/fontes&EngSof/sistemaComputacional/Abstr_Process.cpp",
+		"/home/olegario/Operating_System_Simulator/5 - Agrupamento 4, Tema 1.7, Projeto Algoritmo de detec├з├гo de deadlock.-Fabio Moreira (14200727)_3103556_assignsubmission_file_FabioMoreiraTema1.7/fontes&EngSof/sistemaComputacional/Abstr_Process.h",
+		"/home/olegario/test_zone/recife/tip2/resultados/missing_cases.py",
+		"/media/olegario/MULTIBOOT/base_climas/arquivos_climaticos.py",
+		"/media/olegario/MULTIBOOT/base_climas/arquivos_climaticos_OLD.py",
+		"/home/olegario/test_zone/rio/tip6/resultados/missing_cases.py",
+		"/home/olegario/test_zone/floripa/tip1/resultados/output_tip1.py",
+		"/home/olegario/test_zone/missing_cases.py",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF (2)/src/Abstr_Thread.cpp",
+		"/home/olegario/Operating_System_Simulator/DIARIO_SOBRE_O_SIMULADOR.txt",
+		"/home/olegario/Operating_System_Simulator/SC_Gilney_N_Mathias/Sistema_Computacional/Abstr_Thread.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF (2)/src/Application.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF (2)/src/Abstr_Thread.h",
+		"/home/olegario/Operating_System_Simulator/SC_Gilney_N_Mathias/Sistema_Computacional/Abstr_Thread.h",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Util_Scheduling_Queue.h",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Abstr_Scheduler.h",
+		"/home/olegario/Operating_System_Simulator/SC_Gilney_N_Mathias/Sistema_Computacional/Abstr_Scheduler.h",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF (2)/src/Abstr_Scheduler.h",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF (2)/src/Abstr_Process.cpp",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Abstr_Process.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF (2)/src/Abstr_Process.h",
+		"/home/olegario/Operating_System_Simulator/14 - Agrupamento 4. Tema 1.5. Escalonamento de tempo real (1.5.2 RM).-Jos├й Luis Conradi Hoffmann (15100745)_3106150_assignsubmission_file_SC-RM-JoseLuisConradiHoffmann/SC/Abstr_Process.h",
+		"/home/olegario/Operating_System_Simulator/SC_Gilney_N_Mathias/Sistema_Computacional/Util_Scheduling_Queue.h",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF (2)/src/Util_Scheduling_Queue.h",
+		"/home/olegario/Operating_System_Simulator/SC_Gilney_N_Mathias/Sistema_Computacional/Util_Queue.h",
+		"/home/olegario/Operating_System_Simulator/Leonardo Passig Horstmann - 15103030/Projeto/Mediator_HardDisk.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Gilney_N_Mathias/Sistema_Computacional/Mediator_HardDisk.cpp",
+		"/home/olegario/Operating_System_Simulator/Final_Version/Mediator_HardDisk.h",
+		"/home/olegario/Operating_System_Simulator/Leonardo Passig Horstmann - 15103030/Projeto/Mediator_HardDisk.h",
+		"/home/olegario/Operating_System_Simulator/SC_Gilney_N_Mathias/Sistema_Computacional/Mediator_HardDisk.h",
+		"/home/olegario/test_zone/floripa/tip6/resultados/output_tip6.py",
+		"/home/olegario/test_zone/floripa/tip5/resultados/output_tip5.py",
+		"/home/olegario/test_zone/floripa/tip4/resultados/output_tip4.py",
+		"/home/olegario/test_zone/floripa/tip3/resultados/output_tip3.py",
+		"/home/olegario/test_zone/floripa/tip2/resultados/output_tip2.py",
+		"/home/olegario/test_zone/floripa/tip4/resultados/output_tip4.pyc",
+		"/home/olegario/test_zone/missin_cases.py",
+		"/home/olegario/test_zone/floripa/tip1/resultados/resultados.py",
+		"/home/olegario/Downloads/database_test.r",
+		"/home/olegario/tmp.txt",
+		"/home/olegario/Operating_System_Simulator/Differences_files.txt",
+		"/home/olegario/Downloads/client.c",
+		"/home/olegario/Dropbox/ns_rtqr/gustavo/standard_test_big/database_test.r",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Abstr_Process.h",
+		"/home/olegario/Operating_System_Simulator/SC_Gilney_N_Mathias/Sistema_Computacional/Util_Scheduling_Queue.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Util_Scheduling_Queue.cpp",
+		"/home/olegario/Operating_System_Simulator/SC_Scheduler_EDF/src/Util_Scheduling_Queue.h"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"thread_1",
+			"teste",
+			"interr",
+			"getInstan",
+			"_initSimulation",
+			"mem",
+			"Periodic_Thread",
+			"Thread",
+			"Manag",
+			"MemoryMa",
+			"MemoryManager",
+			"setD",
+			"set",
+			"row",
+			";\n",
+			"%",
+			"path",
+			"mis",
+			".\n",
+			"----------------------------------------------------------------------------------",
+			"Will",
+			"eyelashes",
+			"Dolly",
+			"Mohammad",
+			")\n",
+			"%s",
+			"int",
+			"path_to_files",
+			"shutil",
+			"csv_to_sql",
+			"file",
+			"'));\"\"\"",
+			"%s",
+			"endereco",
+			"FLOAT(2)",
+			"%",
+			",",
+			"print",
+			"writer",
+			"print",
+			"execfile",
+			"character set utf8",
+			".",
+			"dirs",
+			"os.",
+			"process_csv_file",
+			"processarArquivoCSV",
+			"restore_path",
+			"get_som",
+			"S",
+			"E",
+			"O",
+			"ecc",
+			"see",
+			"seek",
+			"SMALLINT",
+			"/';",
+			"process_cs",
+			"implemen",
+			"0000017",
+			"inconsistence",
+			"append",
+			"number_lines",
+			"csv_missing",
+			"csv_complete",
+			"open",
+			"alist",
+			"\t\t\n",
+			"see",
+			"True",
+			"\t\n",
+			"binary_search",
+			"x",
+			"oi",
+			"();\n",
+			"break",
+			"insert",
+			"\";\n",
+			"queue",
+			"q",
+			"class",
+			"{}\n",
+			"running_thread",
+			"unning_thread",
+			"setVal",
+			" _file",
+			"state",
+			":-\n",
+			"listing",
+			"process_csv_file",
+			"csv_input_file_path",
+			"nome_tabela",
+			"])",
+			"s",
+			"DEFAULT",
+			"process_csv_file",
+			"process"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"strategy",
+			"Thread",
+			"Periodic_Thread",
+			"path_missing",
+			"Luca",
+			"path_to_saida",
+			"tip_to_sql",
+			"",
+			"s",
+			"e",
+			"o",
+			"eec",
+			"number_lines_complete",
+			"collection",
+			"processarArquivoCSV"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "OperatingSystem.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5987,
+								5987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2079.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Abstr_MemoryManager.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Abstr_Process.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1990,
+								1990
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1050.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Abstr_Process.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5302,
+								5302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 924.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "GerenciadorRecurso.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1644,
+								1644
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "GerenciadorRecurso.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Abstr_Thread.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1087,
+								1087
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Abstr_Thread.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8062,
+								8062
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 588.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Abstr_FileAllocationTable.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

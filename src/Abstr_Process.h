@@ -87,11 +87,14 @@ public: // statics
 
     static Process* exec(); // execute a new process
     static void exit(int status = 0); // finishes the running process
+    static MemoryManager * memManager;
+
 private:
     IdentificationInformation _idInfo;
     ChunkTable _memInfo;
     AccountInformation _cpuTime;
     MemoryChunk *_chunk;
+
 public: // For simulation use only. Do not change
 
     Entity* getEntity() {

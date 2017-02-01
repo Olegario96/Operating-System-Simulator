@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   ModuleInvoke_SystemCall.cpp
  * Author: cancian
- * 
+ *
  * Created on 18 de Setembro de 2016, 18:10
  */
 
@@ -56,6 +56,6 @@ void ModuleInvoke_HardwareEvent::do_run(Entity* entity) {
         simulator->removeEntity(entity);
     }
 
-  
-    
+
+
 }

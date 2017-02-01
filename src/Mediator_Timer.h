@@ -25,7 +25,7 @@ public:
     virtual ~Timer();
 
 public:
-    
+
 private:
     unsigned int _instance;
     // CODIGO FABIO MOREIRA
