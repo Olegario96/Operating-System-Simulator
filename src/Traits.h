@@ -57,8 +57,8 @@ template<> struct Traits<Model> {
         Linked101, Indexed1102, Multilevel1103, Bitmap1111, Grouping1112,
         // DevicesAnsTime
         Alarm12, I2C1141, SPI1142 };
-    static const ProblemType   problemType = MemoryManagement; // SET HERE THE COMPUTACIONAL TYPE YOU ARE SOLVING (THE ONE YOU HAVE CHOOSEN AS TOUR "SC")
-    static const ProblemSolving problemChoosen = BestFit111; // SET HERE THE COMPUTACIONAL SYSTEM YOU ARE SOLVING (THE ONE YOU HAVE CHOOSEN AS TOUR "SC")
+    static const ProblemType   problemType = ProcessScheduling; // SET HERE THE COMPUTACIONAL TYPE YOU ARE SOLVING (THE ONE YOU HAVE CHOOSEN AS TOUR "SC")
+    static const ProblemSolving problemChoosen = EDF151; // SET HERE THE COMPUTACIONAL SYSTEM YOU ARE SOLVING (THE ONE YOU HAVE CHOOSEN AS TOUR "SC")
     static constexpr double simulationLength = 500.0; // time units
     static constexpr double firstCreation = 0.0;       // time units
 };
