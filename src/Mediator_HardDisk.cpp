@@ -96,22 +96,23 @@ void HardDisk::interrupt_handler() {     // Hard Disk Interrupt Handler
 	// Remove a requisição que acabou de ser atendida
 	request = scheduler->choosen();
 	scheduler->remove(request);
+	if (request == nullptr) {
+		// Checa para ver se é um jump
+		if(request->GetOperation() == DiskAccessRequest::JUMP){
+			// Caso seja um Jump para track 0, deve-se atualizar
+			// as prioridades das requisições na fila
+			if(request->GetDiskSector()->track == 0){
+				scheduler->reschedule();
+			}
 
-	// Checa para ver se é um jump
-	if(request->GetOperation() == DiskAccessRequest::JUMP){
-		// Caso seja um Jump para track 0, deve-se atualizar
-		// as prioridades das requisições na fila
-		if(request->GetDiskSector()->track == 0){
-			scheduler->reschedule();
+			// Jumps devem ter sua prioridade ajustada e devem ser adicionados denovo
+			// na lista [fazendo a lista se reordenar]
+			request->updatePriority();
+			scheduler->insert(request);
+		}else{
+			// Se não for um Jump apenas deleta a requisição
+			delete request;
 		}
-
-		// Jumps devem ter sua prioridade ajustada e devem ser adicionados denovo
-		// na lista [fazendo a lista se reordenar]
-		request->updatePriority();
-		scheduler->insert(request);
-	}else{
-		// Se não for um Jump apenas deleta a requisição
-		delete request;
 	}
 
 	// Pega a proxima requisição do escalonador e a atende

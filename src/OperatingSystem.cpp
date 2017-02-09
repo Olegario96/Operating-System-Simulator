@@ -194,6 +194,78 @@ void OperatingSystem::ExecuteTestCode() {
 
         case 7:
             {
+            entity->getAttribute("ExecutionStep")->setValue(std::to_string(executionStep++)); // advance execution step
+            std::cout << "Testing File System:" << std::endl;
+
+            FileSystem *fileSys = OperatingSystem::File_System();
+            std::cout << "Creating Directory: '/o'" << std::endl;
+            fileSys->criarDiretorio((const unsigned char*)"/o ");
+
+            const unsigned char* file1 = (const unsigned char*)"/o/t ";
+            const unsigned char* file2 = (const unsigned char*)"/o/p ";
+            std::cout << "Creating Files: '" << file1 << "' and '" << file2 << "'" << std::endl;
+
+            fileSys->criarArquivo(file1);
+            fileSys->criarArquivo(file2);
+            std::cout << "Trying to open non existant file: '/o/s'" << std::endl
+                      << "Response from 'abrirArquivo': " << fileSys->abrirArquivo((const unsigned char*)"/o/s ") << std::endl
+                      << "Trying to open file: '" << file2 << "'" << std::endl;
+
+            unsigned int node1 = fileSys->abrirArquivo(file2);
+            std::cout << "Local that '" << file2 << "' is: " << node1 << std::endl;
+
+            int size = 64;
+            auto buff = new unsigned char[size];
+            for (int i = 0; i < size; i++) {
+                buff[i] = 'T';
+            }
+
+            buff[63] = 'F';
+            std::cout << "Writing '" << buff << "' in '" << file2 << "'" << std::endl
+                      << fileSys->escreverEmArquivo(node1, 0, buff, size) << std::endl;
+
+            auto buff2 = new unsigned char[size];
+            std::cout << "Reading from file: '" << file2 << "'" << std::endl
+                      << fileSys->leDoArquivo(node1, 0, buff2, size) << std::endl
+                      << "Checking Errors" << std::endl;
+
+            int errors = 0;
+            for (int i = 0; i < size; i++) {
+                if (buff2[i] != buff[i]) {
+                    errors++;
+                }
+            }
+
+            std::cout << "Result: " << errors << " errors." << std::endl;
+
+            auto node2 = fileSys->abrirArquivo(file1);
+            std::cout << "Local that '" << file2 << "' is: " << node2 << std::endl;
+            std::cout << "Writing in '" << file2 << "': " << fileSys->escreverEmArquivo(node2, 5, buff, size) << std::endl;
+
+            unsigned char* buff3;
+            unsigned char vector3[size];
+            buff3 = vector3;
+            std::cout << "Reading from '" << file2 << "': " << fileSys->leDoArquivo(node2, 5, buff3, size) << std::endl;
+            errors = 0;
+            for (int i = 0; i < size; i++) {
+                if (buff3[i] == buff[i]) {
+                    errors++;
+                }
+            }
+            std::cout << "Number of errors found: " <<  errors <<  std::endl;
+
+            std::cout << "Deleting " << file1 << std::endl;
+
+            fileSys->removerArquivo(file1);
+            std::cout << "Veryfying if file was deleted, number of deleted files: " << fileSys->getNumArquivosDeletados() << std::endl;
+            std::cout << "Trying to open " << file1 << ": " << fileSys->abrirArquivo(file1) << std::endl;
+
+            fileSys->removerArquivo(file2);
+            }
+
+        case 8:
+            {
+            entity->getAttribute("ExecutionStep")->setValue(std::to_string(executionStep++)); // advance execution step
             std::cout << "Testing request's and disk acess:" << std::endl;
             // Adiciona os 2 jumps para fazer o disco sempre ir até as bordas
             auto scheduler = OperatingSystem::Disk_Scheduler();
@@ -233,7 +305,7 @@ void OperatingSystem::ExecuteTestCode() {
             std::cout << "The request with most priority had been atended." << std::endl;
             }
 
-            case 8:
+            case 9:
             {
             entity->getAttribute("ExecutionStep")->setValue(std::to_string(++executionStep)); // advance execution step
             std::cout << "Testing read request" << std::endl;
@@ -258,6 +330,7 @@ void OperatingSystem::ExecuteTestCode() {
             //entity->getAttribute("ExecutionStep")->setValue(std::to_string(executionStep++)); // advance execution step
             break;
     }
+    std::cout << "fim" << std::endl;
 }
 
  /*
