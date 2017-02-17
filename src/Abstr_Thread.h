@@ -23,7 +23,7 @@ class Thread {
     friend class Timer;
     friend class Process;
     friend class ProblemTester; // for simulation purposes only
-
+protected:
     enum State {
         RUNNING,
         READY,
@@ -65,8 +65,8 @@ class Thread {
 
 public: // constructors
     Thread(Process* task, Thread::State state = Thread::State::READY);
-    Thread(Process* task, int period, double cpuBurst, Thread::State state = Thread::State::READY);
     Thread(const Thread& orig);
+    Thread();
     virtual ~Thread();
 public: // statics
     static void sleep(Queue<Thread> * q);
@@ -96,23 +96,25 @@ public: //
     Process* getProcess();
     int getPriority() const;
     int getDeadLineTime();
-    int getDLM();
-    void incrementDLM();
-    double getDispatchedTime();
-    double getWaitingTime();
-    double getCPUTime();
-    double getArrivalTime();
-    double getWakeUpTime() const;
-    void setWakeUpTime(double newWakeUp);
-    void setPeriod();
-    double getCPUBurst();
-    double getBurstTime();
     unsigned int getId();
-    bool isBlocked();
-    void setBurstTime(double time);
-    int getPeriod();
-    void setCPUTime();
+    State getState() {
+        return _state;
+    }
+    AccountInformation getAccount() {
+        return _accountInfo;
+    }
+    void setState(State state) {
+        _state = state;
+    }
+    void setCPUTime(double _cpu) {
+        _accountInfo._cpuTime = _cpu;
+    }
+
+    void setBlockedAux(double _aux) {
+        _accountInfo._blockedAux = _aux;
+    }
 protected:
+
     Process * _process;
     State _state;
     unsigned int _id;

@@ -14,7 +14,7 @@
 #ifndef ALARM_H
 #define ALARM_H
 
-#include "Abstr_Thread.h"
+#include "Abstr_ThreadPeriodic.h"
 #include "Util_Queue.h"
 #include "OperatingSystem.h"
 #include "Simulator.h"
@@ -52,10 +52,10 @@ public:
      */
     static void delay(const Microsecond & time);
 
-    static Queue<Thread>* getQueue() {
-        static Queue<Thread>* _queue;
+    static Queue<ThreadPeriodic>* getQueue() {
+        static Queue<ThreadPeriodic>* _queue;
         if (_queue == nullptr)
-            _queue = new Queue<Thread>;
+            _queue = new Queue<ThreadPeriodic>;
         return _queue;
     }
     static bool wakeUpAlarm();

@@ -24,8 +24,8 @@ Alarm::~Alarm() {
 }
 
 void Alarm::delay(const Microsecond & _time) {
-	OperatingSystem::Process_Scheduler()->choosen()->setWakeUpTime(_time);
-	Thread::sleep(Alarm::getQueue());
+	((ThreadPeriodic*) OperatingSystem::Process_Scheduler()->choosen())->setWakeUpTime(_time);
+	ThreadPeriodic::sleep(Alarm::getQueue());
 	Alarm::getQueue()->order();
 }
 
@@ -35,7 +35,7 @@ bool Alarm::wakeUpAlarm() {
 	while (!end && !(Alarm::getQueue()->empty())) {
 		if (Alarm::getQueue()->top()->getWakeUpTime() <= Simulator::getInstance()->getTnow()) {
 			Alarm::getQueue()->top()->setPeriod();
-			Thread::wakeup(Alarm::getQueue());
+			ThreadPeriodic::wakeup(Alarm::getQueue());
 			change = true;
 		} else {
 			end = true;

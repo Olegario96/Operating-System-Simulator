@@ -31,26 +31,11 @@ Thread::Thread(Process* task, Thread::State state) {
     _accountInfo._priority = Simulator::getInstance()->getTnow() + DEAD_LINE;
 }
 
-Thread::Thread(Process* task, int period, double cpuBurst, Thread::State state) {
-    _id = Thread::getNewId();
-    _process = task;
-    _state = state;
-    // INSERT YOUR CODE HERE
-    // ...
-    _accountInfo._cpuBurst = cpuBurst;
-    _accountInfo._priority = period;
-    _accountInfo._period = _accountInfo._priority;
-    _accountInfo._cpuBurstTime = 0;
-    _accountInfo._cpuTime = 0;
-    _accountInfo._waitingTime = 0;
-    _accountInfo._arrivalTime = Simulator::getInstance()->getTnow();
-    _accountInfo._wakeupTime = 0;
-    _accountInfo._dispatchedTime = _accountInfo._arrivalTime;
-    _accountInfo._deadLineMiss = 0;
-    _queue = new Queue<Thread>();
+Thread::Thread(const Thread& orig) {
 }
 
-Thread::Thread(const Thread& orig) {
+Thread::Thread(){
+
 }
 
 Thread::~Thread() = default;
@@ -294,72 +279,8 @@ int Thread::getDeadLineTime() {
     return _accountInfo._deadLineTime;
 }
 
-int Thread::getDLM() {
-    return _accountInfo._deadLineMiss;
-}
-
-void Thread::incrementDLM() {
-    _accountInfo._deadLineMiss++;
-}
-
-double Thread::getDispatchedTime() {
-    return _accountInfo._dispatchedTime;
-}
-
-double Thread::getWaitingTime() {
-    return _accountInfo._waitingTime;
-}
-
-double Thread::getCPUTime() {
-    return _accountInfo._cpuTime;
-}
-
-double Thread::getArrivalTime() {
-    return _accountInfo._arrivalTime;
-}
-
-double Thread::getWakeUpTime() const {
-    return _accountInfo._wakeupTime;
-}
-
-void Thread::setWakeUpTime(double newWakeUp) {
-    _accountInfo._wakeupTime = newWakeUp;
-}
-
-void Thread::setPeriod() {
-    _accountInfo._period += _accountInfo._priority;
-}
-
-double Thread::getCPUBurst() {
-    return _accountInfo._cpuBurst;
-}
-
-double Thread::getBurstTime() {
-    return _accountInfo._cpuBurstTime;
-}
-
 unsigned int Thread::getId() {
     return _id;
-}
-
-bool Thread::isBlocked() {
-    if (Thread::running() != nullptr)
-        return (Thread::running()->_state == Thread::State::WAITING || Thread::running()->_state == Thread::State::FINISHING);
-    else
-        return true;
-}
-
-void Thread::setBurstTime(double time) {
-    _accountInfo._cpuBurstTime = time;
-}
-
-int Thread::getPeriod() {
-    return _accountInfo._period;
-}
-
-void Thread::setCPUTime() {
-    _accountInfo._cpuTime += _accountInfo._cpuBurst;
-    _accountInfo._cpuBurstTime = 0;
 }
 
 std::ostream& operator<<(std::ostream& os, const Thread* c){
